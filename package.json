@@ -1,0 +1,28 @@
+{
+  "name": "dopma",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "compression": "^1.6.2",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "~1.4.3",
+    "csurf": "^1.9.0",
+    "debug": "^2.5.1",
+    "express": "~4.14.0",
+    "express-session": "^1.14.2",
+    "helmet": "^3.1.0",
+    "join-io": "^1.4.5",
+    "mongoose": "^4.7.4",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "^0.10.0",
+    "pug": "~2.0.0-beta6",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
